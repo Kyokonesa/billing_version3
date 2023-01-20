@@ -74,7 +74,7 @@ function Admin() {
                </div>
              </nav>
 
-             <div class="tab-container">
+             <div className="tab-container">
                  <a class="tab active" href="/#">Manager User</a>
                  <a class="tab" href="/#">Branch</a>
                  <a class="tab" href="/#">Department</a>
@@ -95,6 +95,19 @@ function Admin() {
                       <button>Create Account</button>
                 </form>
               </div>
+
+              <table style={{border: "1px solid black", width: "100%", height: "100%"}}>
+                <tr style={{height: "60px"}}>
+                  <td style={{borderRight: "1px solid black"}}>Row 1, Cell 1</td>
+                  <td style={{borderRight: "1px solid black"}}>Row 1, Cell 2</td>
+                  <td style={{borderRight: "1px solid black"}}>Row 1, Cell 3</td>
+                  <td style={{borderRight: "1px solid black"}}>Row 1, Cell 1</td>
+                  <td style={{borderRight: "3px solid gray"}}>Row 1, Cell 2</td>
+                  <td>Row 1, Cell 3</td>
+                </tr>
+              </table>
+
+
             </main>
 
         </div>  
